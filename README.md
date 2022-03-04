@@ -10,6 +10,6 @@ It creates a new folder/file by replacing the path of all subfolders in the fold
 
 # Using
 CodeGenerator.exe <input_file> <input_srcStr> <output_destStr>
-![](./ReadmeImg/UsingCommand.png)
-![](./ReadmeImg/Colors.png) ![](./ReadmeImg/Fuels.png)
-![](./ReadmeImg/ColorListDto.png)![](./ReadmeImg/FuelListDto.png)
+![](CodeGenerator/ReadmeImg/UsingCommand.png)
+![](CodeGenerator/ReadmeImg/Colors.png) ![](./ReadmeImg/Fuels.png)
+![](CodeGenerator/ReadmeImg/ColorListDto.png)![](./ReadmeImg/FuelListDto.png)
