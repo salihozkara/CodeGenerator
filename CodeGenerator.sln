@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenerator", "CodeGenerator\CodeGenerator.csproj", "{041FDF5B-34CF-43D9-A767-A1EB938BF131}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{041FDF5B-34CF-43D9-A767-A1EB938BF131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041FDF5B-34CF-43D9-A767-A1EB938BF131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041FDF5B-34CF-43D9-A767-A1EB938BF131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041FDF5B-34CF-43D9-A767-A1EB938BF131}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
