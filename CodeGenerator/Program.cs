@@ -11,9 +11,9 @@ if (args.Length != 3)
 
 var sourcePath = Path.GetFullPath(args[0]);
 
-var sourceStrig = args[1];
+var sourceString = args[1];
 var destString = args[2];
-if (sourceStrig == destString)
+if (sourceString == destString)
 {
     Console.WriteLine("Source and destination strings are the same");
     return;
@@ -25,17 +25,17 @@ if (Directory.Exists(sourcePath))
     var sourceDir = Directory.GetDirectories(sourcePath, "*.*", SearchOption.AllDirectories);
     foreach (var dir in sourceDir)
     {
-        DirCreator(dir, sourceStrig, destString);
+        DirCreator(dir, sourceString, destString);
     }
 
     foreach (var file in sourceFiles)
     {
-        FileCreator(file, sourceStrig, destString);
+        FileCreator(file, sourceString, destString);
     }
 }
 else if (File.Exists(sourcePath))
 {
-    FileCreator(sourcePath, sourceStrig, destString);
+    FileCreator(sourcePath, sourceString, destString);
 }
 else
 {
