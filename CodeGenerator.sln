@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenerator", "CodeGenerator\CodeGenerator.csproj", "{041FDF5B-34CF-43D9-A767-A1EB938BF131}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeGenerator", "CodeGenerator\CodeGenerator.csproj", "{041FDF5B-34CF-43D9-A767-A1EB938BF131}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +15,11 @@ Global
 		{041FDF5B-34CF-43D9-A767-A1EB938BF131}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{041FDF5B-34CF-43D9-A767-A1EB938BF131}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{041FDF5B-34CF-43D9-A767-A1EB938BF131}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15A74CB7-B396-4943-BC9C-5593BE7FD05C}
 	EndGlobalSection
 EndGlobal
